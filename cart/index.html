@@ -5,6 +5,22 @@
     <title>CodePen - Responsive jQuery Shopping Basket</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+
+    <!-- Vendor CSS Files -->
+    <link href="../assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="../assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+    <link href="../assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="../assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="../assets/css/style.css" rel="stylesheet" />
   </head>
   <body>
     <!-- partial:index.partial.html -->
@@ -17,6 +33,43 @@
       </head>
 
       <body>
+        <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top header-inner-pages" style="position: relative">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="../index.html" class="h-100"><img src="../assets/img/Cheetar-logo.png" alt="" class="img-fluid" /></a>
+
+        <nav id="navbar" class="navbar mx-auto">
+          <ul>
+            <li><a class="nav-link scrollto" href="../index.html">Home</a></li>
+            <li><a class="nav-link" href="../index.html">About</a></li>
+            <li class="dropdown">
+              <a href="#guitars"><span>Guitars</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="../acoustic.html">Acoustic Guitar</a></li>
+                <li><a href="../electric.html">Electric Guitar</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#accessories"><span>Accessories</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="../strings.html">Strings</a></li>
+                <li><a href="../capo.html">Capo</a></li>
+                <li><a href="../straps.html">Straps</a></li>
+                <li><a href="../pedals.html">Pedals</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+        <div class="header-icons">
+          <a class="shopping-cart" style="padding-right: 25px; padding-left: 50px" href="#"><span class="bi bi-cart-fill"></span></a>
+          <a href="#"><button class="btn" style="color: white; background-color: #FA724A;" type="submit">Login</button>
+        </div>
+      </div>
+    </header>
+    <!-- End Header -->
         <main>
           <div class="basket">
             <div class="basket-module">
