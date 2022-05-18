@@ -86,7 +86,7 @@ label {
   padding: 0.5rem;
   text-transform: uppercase;
   transition: all 0.2s linear;
-  width: 48%;
+  width: 70%;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   -o-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -99,7 +99,10 @@ label {
 }
 
 .promo-code-cta {
-  border-radius: 4px;
+  color: #fff;
+  background-color: #fa724a;
+  border-radius: 3px;
+  width: 27%;
   font-size: 0.625rem;
   margin-left: 0.625rem;
   padding: 0.6875rem 1.25rem 0.625rem;
@@ -202,7 +205,6 @@ li.subtotal:before {
 
 aside {
   float: right;
-  position: relative;
   width: 30%;
 }
 
@@ -210,8 +212,8 @@ aside {
   background-color: #eee;
   border: 1px solid #aaa;
   padding: 1rem;
-  position: fixed;
-  width: 250px;
+  position: absolute;
+  width: 400px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -282,6 +284,8 @@ aside {
 }
 
 .checkout-cta {
+  background-color: #fa724a;
+  border-radius: 3px;
   display: block;
   float: none;
   font-size: 0.75rem;
