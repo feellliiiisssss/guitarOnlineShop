@@ -1,3 +1,5 @@
+
+
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -39,6 +41,24 @@
                  
 				</div>
 			</div>
+      <!--Sign Up / register Page-->
+      <?php
+      require 'functions.php';
+
+      if( isset($_POST["register"])) 
+      {
+          if(registrasi($_POST) > 0) 
+          {
+            echo "<script>
+                  alert('user baru berhasil ditambahkan!');
+                  </script>";
+          }
+          else 
+          {
+            echo mysqli_error($conn);
+          }
+      }
+?>
 			  <div id="second">
 			      <div class="myform form ">
                         <div class="logo mb-3">
@@ -64,8 +84,12 @@
                               <label for="exampleInputEmail1">Password</label>
                               <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
                            </div>
+                           <div class="form-group">
+                              <label for="exampleInputEmail1">Confirm Password</label>
+                              <input type="password" name="confirmpass" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Confirm Password">
+                           </div>
                            <div class="col-md-12 text-center mb-3">
-                              <button type="submit" class=" btn btn-block mybtn tx-tfm" style="background-color: #FF7262; color:#fff">REGISTER</button>
+                              <button type="submit" class=" btn btn-block mybtn tx-tfm" style="background-color: #FF7262; color:#fff" name="register">REGISTER</button>
                            </div>
                            <div class="col-md-12 ">
                               <div class="form-group">
@@ -146,5 +170,5 @@ $(function () {
   });
 });
 
-      </script>  
+      </script> 
 </body>
