@@ -5,9 +5,9 @@ session_start();
 <html>
 <head>
 
-<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="jquery-3.2.1.min.js"></script>
 
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./assets/css/style.css">
 
 <link rel="stylesheet"
     href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
@@ -54,7 +54,6 @@ session_start();
 
 <body>
     <div class="demo-container">
-        <h2>AJAX based Login Registration System with jQuery Lightbox</h2>
         <div class="login-registration-menu">
             <input type="button" value="Login" id="btn-login"> <input
                 type="button" value="Register" id="btn-register">

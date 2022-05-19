@@ -46,6 +46,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'registration') {
     }
 }
 
+
 if (isset($_POST['action']) && $_POST['action'] == 'login') {
     $emailId = validateData($_POST['emailId']);
     $password = validateData($_POST['password']);
@@ -61,7 +62,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'login') {
     if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
             $_SESSION['username'] = $row['first_name'] . " " . $row['last_name'];
-            require_once "dashboard.php";
+            require_once "index.php";
             exit();
         } // endwhile
     } // endif

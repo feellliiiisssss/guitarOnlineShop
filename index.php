@@ -18,6 +18,9 @@
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link rel="stylesheet"
+    href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 
 
   <!-- CSS -->
@@ -34,14 +37,14 @@
           <div class="main-menu-wrap">
             <div class="container d-flex align-items-center">
               
-              <a href="index.html" class="h-100"><img src="assets/img/Cheetar-logo.png" alt="" class="img-fluid"></a>
+              <a href="index.php" class="h-100"><img src="assets/img/Cheetar-logo.png" alt="" class="img-fluid"></a>
               
       <nav id="navbar" class="navbar mx-auto">
         <ul>
           <li><a class="nav-link scrollto" href="#hero">Home</a></li>
           <li class="dropdown"><a href="#guitars"><span>Guitars</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="acoustic.html">Acoustic Guitar</a></li>
+              <li><a href="acoustic.php">Acoustic Guitar</a></li>
               <li><a href="electric.html">Electric Guitar</a></li>
             </ul>
           </li>
@@ -59,7 +62,7 @@
       </nav><!-- .navbar -->
       <div class="header-icons">
         <a href="./cart/index.html" class="shopping-cart" style="padding-right: 25px; padding-left: 50px;" href="#"><span class='bi bi-cart-fill'></span></a>
-        <a href="./ajax-based-login-registration-system-with-jquery-lightbox/index.php"><button class="btn" style="color: white; background-color: #FA724A;" type="submit">Sign In</button></a>
+        <a href="index2.php"><button class="btn" style="color: white; background-color: #FA724A;" type="submit">Sign In</button></a>
       </div>
     </div>
   </div>
@@ -400,7 +403,6 @@
     </div>
   </footer><!-- End Footer -->
 
-  <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
