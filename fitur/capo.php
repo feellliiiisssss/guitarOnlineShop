@@ -9,69 +9,11 @@
   <meta content="" name="description" />
   <meta content="" name="keywords" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet" />
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet" />
+  <?php require('link.php');?>
 </head>
 
 <body>
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top header-inner-pages" style="position: relative">
-    <div class="container d-flex align-items-center justify-content-between">
-      <a href="index.html" class="h-100"><img src="assets/img/Cheetar-logo.png" alt="" class="img-fluid" /></a>
-
-      <nav id="navbar" class="navbar mx-auto">
-        <ul>
-          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
-          <li class="dropdown">
-            <a href="#guitars"><span>Guitars</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="acoustic.html">Acoustic Guitar</a></li>
-              <li><a href="electric.html">Electric Guitar</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#accessories"><span>Accessories</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="strings.html">Strings</a></li>
-              <li><a href="capo.html">Capo</a></li>
-              <li><a href="straps.html">Straps</a></li>
-              <li><a href="pedals.html">Pedals</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
-      <div class="header-icons">
-        <a href="./cart/index.html" class="shopping-cart" style="padding-right: 25px; padding-left: 50px" href="#"><span
-            class="bi bi-cart-fill"></span></a>
-        <a href="sign-in/index.html"><button class="btn" style="color: white; background-color: #FA724A;"
-            type="submit">Login</button>
-      </div>
-    </div>
-  </header>
-  <!-- End Header -->
-
+<?php require('navbar.php');?>
   <section id="prod" class="prod section-bg">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
@@ -91,7 +33,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="assets/img/Capo/capo 1.png" />
+                    <img class="pic-1" src="../assets/img/Capo/capo 1.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-1"></i>QUICK VIEW</a>
                 </div>
@@ -105,7 +47,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="assets/img/Capo/capo 2.png" />
+                    <img class="pic-1" src="../assets/img/Capo/capo 2.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-2"></i>QUICK VIEW</a>
                 </div>
@@ -119,7 +61,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="assets/img/Capo/capo 3.png" />
+                    <img class="pic-1" src="../assets/img/Capo/capo 3.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-3"></i>QUICK VIEW</a>
                 </div>
@@ -140,7 +82,7 @@
   <div class="products-preview">
     <div class="preview" data-target="p-1">
       <i class="fas fa-times"></i>
-      <img src="assets/img/Capo/capo 1.png" alt="" />
+      <img src="../assets/img/Capo/capo 1.png" alt="" />
       <h3>GOLD CAPO</h3>
       <div class="price">$10.00</div>
       <hr>
@@ -154,7 +96,7 @@
     </div>
     <div class="preview" data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="assets/img/Capo/capo 2.png" alt="" />
+      <img src="../assets/img/Capo/capo 2.png" alt="" />
       <h3>SILVER CAPO</h3>
       <div class="price">$10.00</div>
       <hr>
@@ -168,7 +110,7 @@
     </div>
     <div class="preview" data-target="p-3">
       <i class="fas fa-times"></i>
-      <img src="assets/img/Capo/capo 3.png" alt="" />
+      <img src="../assets/img/Capo/capo 3.png" alt="" />
       <h3>RED CAPO</h3>
       <div class="price">$10.00</div>
       <hr>
@@ -182,64 +124,7 @@
     </div>
   </div>
   <!---->
-
-<<<<<<< HEAD
- <!-- FOOTER -->
- <footer id="footer">
-  <div class="footer-top">
-=======
-  <!-- FOOTER -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="footer-info text-center">
-            <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-email"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="Whatsapp"><i class="bx bxl-whatsapp"></i></a>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-
->>>>>>> e564fc1d34e961865506c2385f32259612606648
-    <div class="container">
-      <div class="row">
-
-          <div class="footer-info text-center">
-            <p>
-              <strong>Phone:</strong> +6281316577275 <br>
-              <strong>Email:</strong> cheetarr@gmail.com<br>
-            </p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-email"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="Whatsapp"><i class="bx bxl-whatsapp"></i></a>
-            </div>
-          </div>
-        
-
-      </div>
-    </div>
-  </div>
-
-  <div class="container">
-    <div class="copyright">
-      &copy; Copyright <strong><span>Cheetarr</span></strong>. All Rights Reserved
-    </div>
-  </div>
-</footer><!-- End Footer -->
+  <?php require('footer.php');?>
 
 
   <script type="text/javascript">
@@ -272,17 +157,7 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+      <?php require('js.php');?>
 </body>
 
 </html>

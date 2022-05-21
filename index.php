@@ -8,70 +8,11 @@
   <title>Cheetarr</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-
-  <!-- CSS -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
+<?php require('link.php');?>
 </head>
 
 <body>
-
-  <!-- HEADER -->
-  <header id="header" class="fixed-top">
-    <div class="container">
-      <div class="col-lg-12 col-sm-12 text-center">
-        <div class="main-menu-wrap">
-          <div class="container d-flex align-items-center">
-
-            <a href="index.html" class="h-100"><img src="assets/img/Cheetar-logo.png" alt="" class="img-fluid"></a>
-
-            <nav id="navbar" class="navbar mx-auto">
-              <ul>
-                <li><a class="nav-link scrollto" href="#hero">Home</a></li>
-                <li class="dropdown"><a href="#guitars"><span>Guitars</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                    <li><a href="acoustic.html">Acoustic Guitar</a></li>
-                    <li><a href="electric.html">Electric Guitar</a></li>
-                  </ul>
-                </li>
-                <li class="dropdown"><a href="#acessories"><span>Accessories</span> <i
-                      class="bi bi-chevron-down"></i></a>
-                  <ul>
-                    <li><a href="strings.html">Strings</a></li>
-                    <li><a href="capo.html">Capo</a></li>
-                    <li><a href="straps.html">Straps</a></li>
-                    <li><a href="pedals.html">Pedals</a></li>
-                  </ul>
-                </li>
-                <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
-              </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-            <div class="header-icons">
-              <a href="./cart/index.html" class="shopping-cart"
-                style="padding-right: 25px; padding-left: 50px; color: #FA724A;" href="#"><span
-                  class='bi bi-cart-fill'></span></a>
-              <a href="#"><button class="btn" style="color: white; background-color: #FA724A;" type="submit">Sign
-                  In</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    </div>
-  </header><!-- End Header -->
+<?php require('navbar.php');?>
 
   <!-- HERO -->
   <section id="hero">
@@ -396,65 +337,12 @@
 
   </main><!-- End #main -->
 
-  <!-- FOOTER -->
-  <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-<<<<<<< HEAD
-            <div class="footer-info text-center">
-              <p>
-                <strong>Phone:</strong> +6281316577275 <br>
-                <strong>Email:</strong> cheetarr@gmail.com<br>
-              </p>
-              <div class="social-links mt-3">
-                <a href="#" class="twitter"><i class="bx bxl-email"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="Whatsapp"><i class="bx bxl-whatsapp"></i></a>
-              </div>
-=======
-          <div class="footer-info text-center">
-            <p>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> cheetarr@gmail.com<br>
-            </p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-email"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="Whatsapp"><i class="bx bxl-whatsapp"></i></a>
->>>>>>> e564fc1d34e961865506c2385f32259612606648
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong><span>Cheetarr</span></strong>. All Rights Reserved
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+  <?php require('footer.php');?>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+      <?php require('js.php');?>
 
 </body>
 
