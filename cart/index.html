@@ -34,7 +34,7 @@
 
       <body>
         <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top header-inner-pages" style="position: relative">
+    <header id="header" class="fixed-top header-inner-pages always-black" style="position: relative">
       <div class="container d-flex align-items-center justify-content-between">
         <a href="../index.html" class="h-100"><img src="../assets/img/Cheetar-logo.png" alt="" class="img-fluid" /></a>
 
@@ -69,7 +69,7 @@
       </div>
     </header>
     <!-- End Header -->
-        <main>
+        <main style="min-height: 100%;">
           <div class="basket">
             <div class="basket-labels">
               <ul>
@@ -85,11 +85,9 @@
                   <img src="http://placehold.it/120x166" alt="Placholder Image 2" class="product-frame" />
                 </div>
                 <div class="product-details">
-                  <h1>
+                  <h5>
                     <strong><span class="item-quantity">4</span> x Eliza J</strong> Lace Sleeve Cuff Dress
-                  </h1>
-                  <p><strong>Navy, Size 18</strong></p>
-                  <p>Product Code - 232321939</p>
+                  </h5>
                 </div>
               </div>
               <div class="price">26.00</div>
@@ -107,11 +105,9 @@
                   <img src="http://placehold.it/120x166" alt="Placholder Image 2" class="product-frame" />
                 </div>
                 <div class="product-details">
-                  <h1>
+                  <h5>
                     <strong><span class="item-quantity">1</span> x Whistles</strong> Amella Lace Midi Dress
-                  </h1>
-                  <p><strong>Navy, Size 10</strong></p>
-                  <p>Product Code - 232321939</p>
+                  </h5>
                 </div>
               </div>
               <div class="price">26.00</div>
@@ -127,31 +123,6 @@
           <aside>
             <div class="summary">
               <div class="summary-total-items"><span class="total-items"></span> Items in your Bag</div>
-              <div class="summary-subtotal">
-                <div class="subtotal-title">Subtotal</div>
-                <div class="subtotal-value final-value" id="basket-subtotal">130.00</div>
-                <div class="summary-promo hide">
-                  <div class="promo-title">Promotion</div>
-                  <div class="promo-value final-value" id="basket-promo"></div>
-                </div>
-              </div>
-              <div class="summary-delivery">
-                <select name="delivery-collection" class="summary-delivery-selection">
-                  <option value="0" selected="selected">Select Collection or Delivery</option>
-                  <option value="collection">Collection</option>
-                  <option value="first-class">Royal Mail 1st Class</option>
-                  <option value="second-class">Royal Mail 2nd Class</option>
-                  <option value="signed-for">Royal Mail Special Delivery</option>
-                </select>
-              </div>
-              <div class="basket-module">
-                <div for="promo-code"  placeholder="Enter a promotional code">Promo Code</div>
-                <input id="promo-code" type="text" name="promo-code" maxlength="5" class="promo-code-field" />
-                <button class="promo-code-cta">Apply</button>
-              </div>
-              <br>
-              <br>
-              <br>
               <div class="summary-total">
                 <div class="total-title">Total</div>
                 <div class="total-value final-value" id="basket-total">130.00</div>

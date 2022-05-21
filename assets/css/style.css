@@ -118,7 +118,7 @@ h6 {
 }
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: #fffaf5;
+  background: #edcfa9;
   padding: 10px 0;
 }
 #header.header-scrolled a {
@@ -271,6 +271,10 @@ h6 {
   top: 0;
   left: 100%;
   visibility: visible;
+}
+
+.always-black a {
+  color: #4d4337 !important;
 }
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
