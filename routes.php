@@ -11,3 +11,6 @@ delete('/ajax/cart/$itemId', 'ajaxs/cart/cart_remove.php');
 delete('/ajax/cart-clear', 'ajaxs/cart/cart_clear.php');
 
 post('/ajax/checkout', 'ajaxs/checkout.php');
+
+get('/ajax/history', 'ajaxs/history/history_list.php');
+get('/ajax/history/$historyId', 'ajaxs/history/history_detail.php');
