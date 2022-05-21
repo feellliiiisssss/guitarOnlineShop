@@ -9,3 +9,5 @@ get('/ajax/cart', 'ajaxs/cart/cart_list.php');
 post('/ajax/cart', 'ajaxs/cart/cart_add.php');
 delete('/ajax/cart/$itemId', 'ajaxs/cart/cart_remove.php');
 delete('/ajax/cart-clear', 'ajaxs/cart/cart_clear.php');
+
+post('/ajax/checkout', 'ajaxs/checkout.php');
