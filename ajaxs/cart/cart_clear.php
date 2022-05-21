@@ -1,14 +1,10 @@
 <?php
 
-session_start();
+require_once $_SERVER['DOCUMENT_ROOT'] . '/db.class.php';
 
-if(!isset($_SESSION["user_id"])) {
+if(!isset($_SESSION['user_id'])) {
     http_response_code(401);
     return;
 }
 
-if(!isset($_SESSION["cart"])) {
-    return;
-}
-
-$_SESSION["cart"] = null;
+DB::delete('cart', 'user_id = %i', $_SESSION["user_id"]);

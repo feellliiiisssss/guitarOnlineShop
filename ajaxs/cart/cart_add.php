@@ -1,43 +1,30 @@
 <?php
 
-session_start();
+require_once $_SERVER['DOCUMENT_ROOT'] . '/db.class.php';
 
-if(!isset($_SESSION["user_id"])) {
+if(!isset($_SESSION['user_id'])) {
     http_response_code(401);
     return;
 }
 
-include "./services/database_service.php";
-
-class CartModel {
-    public $itemId;
-    public $qty;
-
-    function constructor($itemId, $qty) {
-        $this->itemId = $itemId;
-        $this->qty = $qty;
-    }
-}
-
-$id = $_POST['id'];
+$itemId = $_POST['item_id'];
 $qty = $_POST['qty'];
 
-// Tambah item kalau belum ada cart
-if(!isset($_SESSION["cart"])) {
-    $_SESSION["cart"] = array(new CartModel($id, $qty));
+$item = DB::queryFirstRow('SELECT * FROM item WHERE id = %i', $itemId);
+if($item == null) {
+    http_response_code(409);
     return;
 }
 
-// Rubah value qty, kalau item sudah ada di cart
-while($cartItem = current($_SESSION["cart"])) {
-    if($cartItem->itemId == $id) {
-        $cartItem->qty = $qty;
-        return;
-    }
-    next($_SESSION["cart"]);
+$cart = DB::queryFirstRow('SELECT * FROM cart WHERE user_id = %i AND item_id = %i', $_SESSION['user_id'], $itemId);
+
+if ($cart != null) {
+    DB::update('cart', ['qty' => $qty], 'id = %i', $cart['id']);
+    return;
 }
 
-// Tambah item kalau belum ada di cart
-if(!$cartItem) {
-    array_push($_SESSION["cart"], new CartModel($id, $qty));
-}
+DB::insert('cart', [
+        'user_id' => $_SESSION['user_id'],
+        'item_id' => $itemId,
+        'qty' => $qty,
+]);

@@ -1,26 +1,10 @@
 <?php
 
-session_start();
+require_once $_SERVER['DOCUMENT_ROOT'] . '/db.class.php';
 
 if(!isset($_SESSION["user_id"])) {
     http_response_code(401);
     return;
 }
 
-include "./services/database_service.php";
-
-$id = $_POST['id'];
-
-if(!isset($_SESSION["cart"])) {
-    return;
-}
-
-$i = 0;
-while($cartItem = current($_SESSION["cart"])) {
-    $i++;
-    if($cartItem->itemId == $id) {
-        unset($cartItem[i]);
-        break;
-    }
-    next($_SESSION["cart"]);
-}
+DB::delete('cart', 'id = %i AND user_id = %i', $itemId, $_SESSION["user_id"]);

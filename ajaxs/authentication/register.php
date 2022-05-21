@@ -8,7 +8,7 @@ $email = $_POST['email'];
 $password = $_POST['password'];
 
 // Check email is registered.
-$user = DB::queryFirstRow('SELECT * FROM user WHERE email=%s', $email);
+$user = DB::queryFirstRow('SELECT * FROM user WHERE email = %s', $email);
 if($user != null) {
     http_response_code(409);
     return;
