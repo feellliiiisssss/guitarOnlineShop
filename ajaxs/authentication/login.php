@@ -1,21 +1,19 @@
 <?php
 
-session_start();
-
-include "database_service.php";
+require_once $_SERVER['DOCUMENT_ROOT'] . '/db.class.php';
 
 $email = $_POST['email'];
 $password = $_POST['password'];
 
-$sql = "SELECT * FROM user WHERE email = '$email'";
-$query = $conn->query($sql);
-$result = $query->fetch_assoc();
-
-if ($result != null) {
-    if(md5($password) == $result['password']) {
-        $_SESSION["user_id"] = $result['id'];
-        return;
-    }
+$user = DB::queryFirstRow('SELECT * FROM user WHERE email=%s', $email);
+if ($user == null) {
+    http_response_code(401);
+    return;
 }
 
-http_response_code(401);
+if(md5($password) != $user['password']) {
+    http_response_code(401);
+    return;
+}
+
+$_SESSION['user_id'] = $user['id'];

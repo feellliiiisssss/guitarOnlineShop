@@ -37,9 +37,9 @@ CREATE TABLE sell_item(
     total_price INTEGER NOT NULL
 );
 
-CREATE TABLE cart {
+CREATE TABLE cart(
     id INTEGER PRIMARY KEY AUTO_INCREMENT,
     user_id INTEGER NOT NULL REFERENCES user(id),
     item_id INTEGER NOT NULL REFERENCES item(id),
     qty INTEGER NOT NULL
-}
+);
