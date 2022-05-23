@@ -35,7 +35,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/strap/strap 1.png" />
+                    <img class="pic-1" src="../static/assets/img/strap/strap 1.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-1"></i>QUICK VIEW</a>
                 </div>
@@ -49,7 +49,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/strap/strap 2.png" />
+                    <img class="pic-1" src="../static/assets/img/strap/strap 2.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-2"></i>QUICK VIEW</a>
                 </div>
@@ -63,7 +63,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/strap/strap 3.png" />
+                    <img class="pic-1" src="../static/assets/img/strap/strap 3.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-3"></i>QUICK VIEW</a>
                 </div>
@@ -84,7 +84,7 @@
   <div class="products-preview">
     <div class="preview" data-target="p-1">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/strap/strap 1.png" alt="" style="height: 35rem;" />
+      <img src="../static/assets/img/strap/strap 1.png" alt="" style="height: 35rem;" />
       <h3>CHOCOLATE STRAPS</h3>
       <div class="price">$30.00</div>
       <hr>
@@ -98,7 +98,7 @@
     </div>
     <div class="preview" data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/strap/strap 2.png" alt="" style="height: 35rem;" />
+      <img src="../static/assets/img/strap/strap 2.png" alt="" style="height: 35rem;" />
       <h3>WALNUT STRAPS</h3>
       <div class="price">$30.00</div>
       <hr>
@@ -112,7 +112,7 @@
     </div>
     <div class="preview" data-target="p-3">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/strap/strap 3.png" alt="" style="height: 35rem;" />
+      <img src="../static/assets/img/strap/strap 3.png" alt="" style="height: 35rem;" />
       <h3>CREAM STRAPS</h3>
       <div class="price">$30.00</div>
       <hr>

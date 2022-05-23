@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../static/css/regist-login.css" />
   </head>
   <body>
     <div class="container">
       <form action="#" class="login active">
-        <img src="../assets/img/Cheetar-logo.png" alt="logo" class="logo" />
+        <img src="../static/assets/Cheetar-logo.png" alt="logo" class="logo" />
         <h2>Sign In</h2>
         <p style="color: grey">to get the most from Cheetarr</p>
         <br />
@@ -33,7 +33,7 @@
       </form>
 
       <form action="#" class="register">
-        <img src="../assets/img/Cheetar-logo.png" alt="logo" class="logo" />
+        <img src="../static/assets/Cheetar-logo.png" alt="logo" class="logo" />
         <h2>Sign Up</h2>
         <p style="color: grey">
           Sign Up to checkout quickly easily, and view <br />
@@ -67,6 +67,6 @@
       </form>
     </div>
 
-    <script src="script.js"></script>
+    <script src="./static/js/regist-login.js"></script>
   </body>
 </html>

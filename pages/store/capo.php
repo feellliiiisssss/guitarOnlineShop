@@ -33,7 +33,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/Capo/capo 1.png" />
+                    <img class="pic-1" src="../static/assets/img/Capo/capo 1.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-1"></i>QUICK VIEW</a>
                 </div>
@@ -47,7 +47,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/Capo/capo 2.png" />
+                    <img class="pic-1" src="../static/assets/img/Capo/capo 2.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-2"></i>QUICK VIEW</a>
                 </div>
@@ -61,7 +61,7 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/Capo/capo 3.png" />
+                    <img class="pic-1" src="../static/assets/img/Capo/capo 3.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-3"></i>QUICK VIEW</a>
                 </div>
@@ -82,7 +82,7 @@
   <div class="products-preview">
     <div class="preview" data-target="p-1">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/Capo/capo 1.png" alt="" />
+      <img src="../static/assets/img/Capo/capo 1.png" alt="" />
       <h3>GOLD CAPO</h3>
       <div class="price">$10.00</div>
       <hr>
@@ -96,7 +96,7 @@
     </div>
     <div class="preview" data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/Capo/capo 2.png" alt="" />
+      <img src="../static/assets/img/Capo/capo 2.png" alt="" />
       <h3>SILVER CAPO</h3>
       <div class="price">$10.00</div>
       <hr>
@@ -110,7 +110,7 @@
     </div>
     <div class="preview" data-target="p-3">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/Capo/capo 3.png" alt="" />
+      <img src="../static/assets/img/Capo/capo 3.png" alt="" />
       <h3>RED CAPO</h3>
       <div class="price">$10.00</div>
       <hr>

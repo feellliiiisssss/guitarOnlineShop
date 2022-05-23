@@ -5,7 +5,7 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-  <title>Cheetarr | Electric-Guitar</title>
+  <title>Cheetarr | Acoustic-Guitar</title>
   <meta content="" name="description" />
   <meta content="" name="keywords" />
 
@@ -14,11 +14,12 @@
 
 <body>
 <?php require('navbar.php');?>
+
   <!--Product-->
   <section id="prod" class="prod section-bg">
     <div class="container" data-aos="fade-up">
       <div class="section-title">
-        <p class="text-center">ELECTRIC GUITAR</p>
+        <p class="text-center">ACOUSTIC GUITAR</p>
         <p class="text-center fw-light text-lowercase" style="font-size: 15px">
           Shop our extensive collection of acoustic guitars from some of the top guitar brands in the world. When you
           purchase your guitar from Cheetarr, you will receive superior service from our staff. Questions? Call us at
@@ -34,13 +35,13 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 1.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 1.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-1"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">FENDER MODERN PLAYER HSS HONEY BURST USED</a></h3>
-                  <div class="price">$549.00</div>
+                  <h3 class="title text-uppercase"><a href="#">Taylor 110e Dreadnaught VINTAGE GLOSS</a></h3>
+                  <div class="price">$799.00</div>
                 </div>
               </div>
             </div>
@@ -48,13 +49,13 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 2.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 2.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-2"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">SUHR MATEUS ASATO SIGNATURE SHELL ANTIQUE USED</a></h3>
-                  <div class="price">$3,350.00</div>
+                  <h3 class="title text-uppercase"><a href="#">Epiphone J-45 Aged Vintage Sunburst Gloss</a></h3>
+                  <div class="price">$749.00</div>
                 </div>
               </div>
             </div>
@@ -62,13 +63,13 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 3.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 3.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-3"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">GIBSON SG TRIBUTE NATURAL WALNUT</a></h3>
-                  <div class="price">$1,199.00</div>
+                  <h3 class="title text-uppercase"><a href="#">Taylor 114e Grand Auditorium</a></h3>
+                  <div class="price">$699.00</div>
                 </div>
               </div>
             </div>
@@ -76,13 +77,13 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 4.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 4.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-4"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">GIBSON LES PUAL STUDIO</a></h3>
-                  <div class="price">$1,199.00</div>
+                  <h3 class="title text-uppercase"><a href="#">TAYLOR 214CE PLUS VINTAGE GLOSS USED</a></h3>
+                  <div class="price">$1,299.00</div>
                 </div>
               </div>
             </div>
@@ -94,14 +95,13 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 5.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 5.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-5"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">CHARVEL PRO MOD JOE DUPLANTIER SD2 HH SATIN WHITE</a>
-                  </h3>
-                  <div class="price">$699.99</div>
+                  <h3 class="title text-uppercase"><a href="#">Fender CD-60SCE 12-String Natural</a></h3>
+                  <div class="price">$369.99</div>
                 </div>
               </div>
             </div>
@@ -109,13 +109,13 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 6.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 6.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-6"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">JACKSON PRO SL3R - MIRROR</a></h3>
-                  <div class="price">$3,350.00</div>
+                  <h3 class="title text-uppercase"><a href="#">Taylor 214ce Acoustic-Electric Guitar - Natural</a></h3>
+                  <div class="price">$999.00</div>
                 </div>
               </div>
             </div>
@@ -123,12 +123,12 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 7.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 7.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-7"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">CHARVEL PRO-MOD SAN DIMAS STYLE 1 HH FR M</a></h3>
+                  <h3 class="title text-uppercase"><a href="#">PRS SE TE60 Acoustic-Electric Guitar Natural</a></h3>
                   <div class="price">$1,049.00</div>
                 </div>
               </div>
@@ -137,12 +137,12 @@
               <div class="product-grid5">
                 <div class="product-image">
                   <a href="#">
-                    <img class="pic-1" src="../assets/img/elektrik/ele 8.png" />
+                    <img class="pic-1" src="../static/assets/img/akustik/gitar 8.png" />
                   </a>
                   <a href="#" class="select-options" data-name="p-8"></i>QUICK VIEW</a>
                 </div>
                 <div class="product-content text-center">
-                  <h3 class="title text-uppercase"><a href="#">JACKSON SLXDX - MULTI CAMO</a></h3>
+                  <h3 class="title text-uppercase"><a href="#">Taylor 214ce Acoustic-Electric</a></h3>
                   <div class="price">$999.00</div>
                 </div>
               </div>
@@ -159,8 +159,8 @@
   <div class="products-preview">
     <div class="preview" data-target="p-1">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 1.png" alt="" style="height: 35rem;" />
-      <h3>FENDER MODERN PLAYER HSS HONEY BURST USED</h3>
+      <img src="../static/assets/img/akustik/gitar 1.png" alt="" />
+      <h3>TAYLOR 110E DREADNAUGHT</h3>
       <div class="price">$799.00</div>
       <hr>
       <div class="buttons">
@@ -173,8 +173,8 @@
     </div>
     <div class="preview" data-target="p-2">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 2.png" alt="" style="height: 35rem;" />
-      <h3>SUHR MATEUS ASATO SIGNATURE SHELL ANTIQUE USED</h3>
+      <img src="../static/assets/img/akustik/gitar 2.png" alt="" />
+      <h3>EPIPHONE J-45 AGED VINTAGE SUNBURST GLOSS</h3>
       <div class="price">$749.00</div>
       <hr>
       <div class="buttons">
@@ -187,9 +187,9 @@
     </div>
     <div class="preview" data-target="p-3">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 3.png" alt="" style="height: 35rem;" />
-      <h3>GIBSON SG TRIBUTE NATURAL WALNUT</h3>
-      <div class="price">$1,199.00</div>
+      <img src="../static/assets/img/akustik/gitar 3.png" alt="" />
+      <h3>TAYLOR 114E GRAND AUDITORIUM</h3>
+      <div class="price">$699.00</div>
       <hr>
       <div class="buttons">
         <a href="#" class="cart">ADD TO CART</a>
@@ -201,9 +201,9 @@
     </div>
     <div class="preview" data-target="p-4">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 4.png" alt="" style="height: 35rem;" />
-      <h3>GIBSON LES PUAL STUDIO</h3>
-      <div class="price">$1,199.00</div>
+      <img src="../static/assets/img/akustik/gitar 4.png" alt="" />
+      <h3>TAYLOR 214CE PLUS VINTAGE GLOSS USED</h3>
+      <div class="price">$1,299.00</div>
       <hr>
       <div class="buttons">
         <a href="#" class="cart">ADD TO CART</a>
@@ -216,9 +216,9 @@
     <!--bwh-->
     <div class="preview" data-target="p-5">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 5.png" alt="" style="height: 35rem;" />
-      <h3>CHARVEL PRO MOD JOE DUPLANTIER SD2 HH SATIN WHITE</h3>
-      <div class="price">$699.99</div>
+      <img src="../static/assets/img/akustik/gitar 5.png" alt="" />
+      <h3>FENDER CD-60SCE 12-STRING NATURAL</h3>
+      <div class="price">$369.99</div>
       <hr>
       <div class="buttons">
         <a href="#" class="cart">ADD TO CART</a>
@@ -230,9 +230,9 @@
     </div>
     <div class="preview" data-target="p-6">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 6.png" alt="" style="height: 35rem;" />
-      <h3>JACKSON PRO SL3R - MIRROR</h3>
-      <div class="price">$3,350.00</div>
+      <img src="../static/assets/img/akustik/gitar 6.png" alt="" />
+      <h3>TAYLOR 214CE ACOUSTIC-ELECTRIC GUITAR - NATURAL</h3>
+      <div class="price">$999.00</div>
       <hr>
       <div class="buttons">
         <a href="#" class="cart">ADD TO CART</a>
@@ -244,8 +244,8 @@
     </div>
     <div class="preview" data-target="p-7">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 7.png" alt="" style="height: 35rem;" />
-      <h3>CHARVEL PRO-MOD SAN DIMAS STYLE 1 HH FR M</h3>
+      <img src="../static/assets/img/akustik/gitar 7.png" alt="" />
+      <h3>PRS SE TE60 ACOUSTIC-ELECTRIC GUITAR NATURAL</h3>
       <div class="price">$1,049.00</div>
       <hr>
       <div class="buttons">
@@ -258,8 +258,8 @@
     </div>
     <div class="preview" data-target="p-8">
       <i class="fas fa-times"></i>
-      <img src="../assets/img/elektrik/ele 8.png" alt="" style="height: 35rem;" />
-      <h3>JACKSON SLXDX - MULTI CAMO</h3>
+      <img src="../static/assets/img/akustik/gitar 8.png" alt="" />
+      <h3>TAYLOR 214CE ACOUSTIC-ELECTRICL</h3>
       <div class="price">$999.00</div>
       <hr>
       <div class="buttons">
@@ -273,12 +273,10 @@
   </div>
   <!---->
   <?php require('footer.php');?>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
-
-      <?php require('js.php');?>
+    <?php require('js.php');?>
 </body>
 
 </html>

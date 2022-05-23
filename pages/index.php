@@ -8,14 +8,14 @@
   <title>Cheetarr</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-<?php require('link.php');?>
+<?php require('../partials/link.php');?>
 </head>
 
 <body>
-<?php require('navbar.php');?>
+<?php require('../partials/navbar2.php');?>
 
   <!-- HERO -->
-  <section id="hero">
+  <section id="hero" style="background: url('../static/assets/hero.png') top center;">
     <div class="hero-container mx-auto" data-aos="fade-up" data-aos-delay="150">
       <h1>See, Buy, Pay with cheetar!</h1>
       <h2>Your first choice guitar online shop</h2>
@@ -78,8 +78,8 @@
         <div class="row">
 
           <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/poster.png" class="img-fluid" alt="">
-            <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+            <img src="../static/assets/poster.png" class="img-fluid" alt="">
+            <a href="https://youtu.be/m6YTge3JxiI" class="glightbox play-btn mb-4"></a>
           </div>
 
           <div class="col-lg-6 pt-3 pt-lg-0 content">
@@ -116,7 +116,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <img src="assets/img/News/10 off.png" class="card-img-top" style="height: 250px;">
+              <img src="../static/assets/News/10 off.png" class="card-img-top" style="height: 250px;">
               <div class="card-body">
                 <br>
                 <h5 class="card-title" style="text-align: left;"><a href="">10% OFF PROMO COUPON</a></h5>
@@ -131,7 +131,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <img src="assets/img/News/gitar.png" class="card-img-top" style="height: 250px;">
+              <img src="../static/assets/News/gitar.png" class="card-img-top" style="height: 250px;">
               <div class="card-body">
                 <br>
                 <h5 class="card-title" style="text-align: left;"><a href="">LETS LOOK OUR NEW BRAND PRODUCT!</a></h5>
@@ -146,7 +146,7 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="card">
-              <img src="assets/img/News/gopay.png" class="card-img-top" style="height: 250px;">
+              <img src="../static/assets/News/gopay.png" class="card-img-top" style="height: 250px;">
               <div class="card-body">
                 <br>
                 <h5 class="card-title" style="text-align: left;"><a href="">NEW PAYMENT UNLOCKED!</a></h5>
@@ -169,27 +169,27 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/merk/alhambra.png" class="img-fluid" alt="">
+            <img src="../static/assets/merk/alhambra.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/merk/elixir.png" class="img-fluid" alt="">
+            <img src="../static/assets/merk/elixir.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/merk/ernie-ball.png" class="img-fluid" alt="">
+            <img src="../static/assets/merk/ernie-ball.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/merk/heritage.png" class="img-fluid" alt="">
+            <img src="../static/assets/merk/heritage.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/merk/jackson_guitars_logosvg.png" class="img-fluid" alt="">
+            <img src="../static/assets/merk/jackson_guitars_logosvg.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-            <img src="assets/img/merk/martin.png" class="img-fluid" alt="">
+            <img src="../static/assets/merk/martin.png" class="img-fluid" alt="">
           </div>
 
         </div>
@@ -210,7 +210,7 @@
 
           <div class="col d-inline-block h-100" style="width: 120px;" data-aos="fade-up" data-aos-delay="200">
             <div class="guitars">
-              <div class="pic"><img src="assets/img/akustik/gitar 1 pnjg.png" class="img-fluid" style="height: 460px;"
+              <div class="pic"><img src="../static/assets/akustik/gitar 1 pnjg.png" class="img-fluid" style="height: 460px;"
                   alt=""></div>
               <div class="thumb-content text-center">
                 <h4>TAYLOR 110E DREADNAUGHT VINTAGE GLOSS</h4>
@@ -222,7 +222,7 @@
 
           <div class="col d-inline-block h-100" style="width: 120px;" data-aos="fade-up" data-aos-delay="200">
             <div class="guitars">
-              <div class="pic"><img src="assets/img/akustik/gitar 5 pnjg.png" class="img-fluid" style="height: 460px;"
+              <div class="pic"><img src="../static/assets/akustik/gitar 5 pnjg.png" class="img-fluid" style="height: 460px;"
                   alt=""></div>
               <div class="thumb-content text-center">
                 <h4>FENDER CD-60SCE 12-STRING NATURAL</h4>
@@ -235,7 +235,7 @@
 
           <div class="col d-inline-block h-100" style="width: 120px;" data-aos="fade-up" data-aos-delay="300">
             <div class="guitars">
-              <div class="pic"><img src="assets/img/akustik/gitar 2 pnjg.png" class="img-fluid" style="height: 460px;"
+              <div class="pic"><img src="../static/assets/akustik/gitar 2 pnjg.png" class="img-fluid" style="height: 460px;"
                   alt=""></div>
               <div class="thumb-content text-center">
                 <h4>EPIPHONE J-45 AGED VINTAGE SUNBURST GLOSS</h4>
@@ -247,7 +247,7 @@
 
           <div class="col d-inline-block h-100" style="width: 120px;" data-aos="fade-up" data-aos-delay="400">
             <div class="guitars">
-              <div class="pic"><img src="assets/img/akustik/gitar 3 pnjg.png" class="img-fluid"
+              <div class="pic"><img src="../static/assets/akustik/gitar 3 pnjg.png" class="img-fluid"
                   style="height: 460px; width: 190px;" alt=""></div>
               <div class="thumb-content text-center">
                 <h4>TAYLOR 114E GRAND AUDITORIUM</h4>
@@ -259,7 +259,7 @@
 
           <div class="col d-inline-block" style="width: 120px; height: 800px;" data-aos="fade-up" data-aos-delay="500">
             <div class="guitars">
-              <div class="pic"><img src="assets/img/akustik/gitar 4 pnjg.png" class="img-fluid" style="height: 460px;"
+              <div class="pic"><img src="../static/assets/akustik/gitar 4 pnjg.png" class="img-fluid" style="height: 460px;"
                   alt=""></div>
               <div class="thumb-content text-center">
                 <h4>TAYLOR 214CE PLUS VINTAGE GLOSS USED</h4>
@@ -271,7 +271,7 @@
 
           <div class="col d-inline-block" style="width: 120px; height: 800px;" data-aos="fade-up" data-aos-delay="500">
             <div class="guitars">
-              <div class="pic"><img src="assets/img/elektrik/ele 1 pnjg.png" class="img-fluid" style="height: 460px;"
+              <div class="pic"><img src="../static/assets/elektrik/ele 1 pnjg.png" class="img-fluid" style="height: 460px;"
                   alt=""></div>
               <div class="thumb-content text-center">
                 <h4>FENDER MODERN PLAYER HSS HONEY BURST USED</h4>
@@ -337,12 +337,12 @@
 
   </main><!-- End #main -->
 
-  <?php require('footer.php');?>
+  <?php require('../partials/footer.php');?>
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
       class="bi bi-arrow-up-short"></i></a>
 
-      <?php require('js.php');?>
+      <?php require('../partials/js.php');?>
 
 </body>
 

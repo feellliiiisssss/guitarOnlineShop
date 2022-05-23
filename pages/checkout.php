@@ -10,7 +10,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/checkout/" />
 
     <!-- Bootstrap core CSS -->
-    <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../static/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <style>
       .bd-placeholder-img {
@@ -29,13 +29,13 @@
     </style>
 
     <!-- Custom styles for this template -->
-    <link href="form-validation.css" rel="stylesheet" />
+    <link href="../static/css/checkout.css" rel="stylesheet" />
   </head>
   <body class="bg-light">
     <div class="container">
       <main>
         <div class="py-5 text-center">
-          <img class="d-block mx-auto mb-4" src="../assets/img/Cheetar-logo.png" alt="" />
+          <img class="d-block mx-auto mb-4" src="../static/assets/Cheetar-logo.png" alt="" />
           <h2>Checkout</h2>
         </div>
 
@@ -60,15 +60,15 @@
                 </div>
 
                 <div class="col-md-5">
-                  <label for="country" class="form-label">City</label>
+                  <label for="city" class="form-label">City</label>
                   <input type="text" class="form-control" id="city" placeholder="" required />
                   <div class="invalid-feedback">City required.</div>
                 </div>
 
                 <div class="col-md-3">
-                  <label for="zip" class="form-label">Postal Code</label>
+                  <label for="zip" class="form-label">ZIP Code</label>
                   <input type="text" class="form-control" id="zip" placeholder="" required />
-                  <div class="invalid-feedback">Postal code required.</div>
+                  <div class="invalid-feedback">ZIP code required.</div>
                 </div>
               </div>
 
@@ -128,8 +128,8 @@
       </footer>
     </div>
 
-    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="form-validation.js"></script>
+    <script src="../static/js/checkout-validation.js"></script>
   </body>
 </html>

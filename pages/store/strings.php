@@ -7,12 +7,12 @@
     <title>Cheetarr | Strings-Accessories</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
-
-    <?php require('link.php');?>
+    <?php require('../../partials/link2.php');?>
+    <script src="../../static/css/style.css"></script>
   </head>
 
   <body>
-<?php require('navbar.php');?>
+<?php require('../../partials/navbar.php');?>
     <!--Product-->
     <section id="prod" class="prod section-bg">
       <div class="container" data-aos="fade-up">
@@ -31,7 +31,7 @@
                 <div class="product-grid5">
                   <div class="product-image">
                     <a href="#">
-                      <img class="pic-1" src="../assets/img/String/S1.png" />
+                      <img class="pic-1" src="../../static/assets/String/S1.png" />
                     </a>
                     <a href="#" class="select-options" data-name="p-1"></i>QUICK VIEW</a>
                   </div>
@@ -45,7 +45,7 @@
                 <div class="product-grid5">
                   <div class="product-image">
                     <a href="#">
-                      <img class="pic-1" src="../assets/img/String/S2.png" />
+                      <img class="pic-1" src="../../static/assets/String/S2.png" />
                     </a>
                     <a href="#" class="select-options" data-name="p-2"></i>QUICK VIEW</a>
                   </div>
@@ -59,7 +59,7 @@
                 <div class="product-grid5">
                   <div class="product-image">
                     <a href="#">
-                      <img class="pic-1" src="../assets/img/String/S3.png" />
+                      <img class="pic-1" src="../../static/assets/String/S3.png" />
                     </a>
                     <a href="#" class="select-options" data-name="p-3"></i>QUICK VIEW</a>
                   </div>
@@ -80,7 +80,7 @@
     <div class="products-preview">
       <div class="preview" data-target="p-1">
         <i class="fas fa-times"></i>
-        <img src="../assets/img/String/S1.png" alt="" />
+        <img src="../../static/assets/String/S1.png" alt="" />
         <h3>CLEARTONE ELECTRIC</h3>
         <div class="price">$50.00</div>
         <hr>
@@ -91,7 +91,7 @@
       </div>
       <div class="preview" data-target="p-2">
         <i class="fas fa-times"></i>
-        <img src="../assets/img/String/S2.png" alt="" />
+        <img src="../../static/assets/String/S2.png" alt="" />
         <h3>DEAN MARKLEY</h3>
         <div class="price">$50.00</div>
         <hr>
@@ -102,7 +102,7 @@
       </div>
       <div class="preview" data-target="p-3">
         <i class="fas fa-times"></i>
-        <img src="../assets/img/String/S3.png" alt="" />
+        <img src="../../static/assets/String/S3.png" alt="" />
         <h3>ROUNDWOUND NICKEL</h3>
         <div class="price">$50.00</div>
         <hr>
@@ -113,11 +113,12 @@
       </div>
       </div>
     <!---->
-    <?php require('footer.php');?>
+    <?php require('../../partials/footer.php');?>
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-    <?php require('js.php');?>
+    <script src="../../static/js/main.js"></script>
+    <?php require('../../partials/js2.php');?>
   </body>
 </html>

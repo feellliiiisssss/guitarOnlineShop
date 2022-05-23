@@ -429,7 +429,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero.png") top center;
+  background: url("../assets/hero.png") top center;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -768,7 +768,6 @@ section {
 # About Boxes
 --------------------------------------------------------------*/
 .about-boxes {
-  background: url("../img/about-boxes-bg.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 30px 0;
   position: relative;
